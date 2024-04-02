@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        *{
+           margin: 0; 
+           padding: 0;
+           box-sizing: border-box;
+           font-family: 'Courier New', Courier, monospace;
+        }
+        body {
+            background: #081b29;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10%;
+            /* background: green; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100; 
+        }
+        .logo {
+            font-size: 25px;
+            color: #ededed;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .navbar a {
+            font-size: 18px;
+            color: #ededed;
+            text-decoration: none;
+            margin-left: 35px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+        .navbar a:hover, 
+        .navbar a.active {
+            color: aquamarine;
+        }
+
+* {
+  box-sizing: border-box;
+}
+
+/* html, body {
+    padding:0;
+    margin:100px;
+} */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px; /* Adjust padding as needed */
+}
+
+body {
+  color: #ededed;
+  font-size: 1em;
+  font-family: 'Source Serif Pro', 'Helvetica Neue', serif;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  color: aquamarine;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.about,
+.questions {
+  max-width: 37.5em;
+  margin: 0 auto;
+  margin-top: 3em;
+  line-height: 1.5em;
+}
+
+.questions h3 {
+  color: aquamarine;
+  margin-bottom: 10px;
+}
+
+</style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">jaesilver.</a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+      <section class="about">
+          <h2>Introduction</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, praesentium ipsam laborum porro provi  Iusto a vitae ullam assumenda quae aliquid beatae voluptas. Sapiente aut porro dolor nobis itaque.<a href="">Lorem</a> ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, praesentium ipsam laborum porro provi <a href="">Lorem</a> Iusto a vitae ullam assumenda quae aliquid beatae voluptas. Sapiente aut porro dolor nobis itaque. Ipsum dolor sit amet consectetur adipisicing elit.</p>
+          
+        </section>
+    
+        <section class="questions">
+          <h2>More about me</h2>
+          <h3>Where am I from?</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam.<a href="">Lorem</a> ipsum dolor sit amet consectetur adipisicing elit.</p>
+    
+          <h3>What is my Dream Job?</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam.<a href="">Lorem</a> ipsum dolor sit amet consectetur adipisicing elit.</p>
+    
+          <h3>What music have you been listening to?</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam.<a href="">Lorem</a> ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </section>
+    </div>
+</body>
+</html>

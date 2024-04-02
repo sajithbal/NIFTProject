@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        *{
+           margin: 0; 
+           padding: 0;
+           box-sizing: border-box;
+           font-family: 'Courier New', Courier, monospace;
+        }
+        body {
+            background: #081b29;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10%;
+            /* background: green; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100; 
+        }
+        .logo {
+            font-size: 25px;
+            color: #ededed;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .navbar a {
+            font-size: 18px;
+            color: #ededed;
+            text-decoration: none;
+            margin-left: 35px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+        .navbar a:hover, 
+        .navbar a.active {
+            color: aquamarine;
+        }
+
+
+
+
+
+
+
+
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  /* font-size: 40px; */
+}
+
+/* body {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  background-color: #333;
+} */
+
+ul {
+  list-style: none;
+}
+h1 {
+    font-size: 60px;
+    
+}
+h3 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.skills {
+  width: 800px;
+  margin: 200px auto;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.skills li {
+  margin: 40px 0;
+}
+
+.bar {
+  margin-top: 10px;
+  background-color: #343b48;
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,0,.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187eb;
+}
+
+.bar span {
+  height: 2px;
+  float: left;
+  background-color: #2187e7;
+}
+
+.photoshop {
+  width: 90%;
+  animation: html 2s;
+}
+
+.figma {
+  width: 65%;
+  animation: css 2s;
+}
+
+.blender {
+  width: 50%;
+  animation: jquery 2s;
+}
+
+.canva {
+  width: 70%;
+  animation: javascript 2s;
+}
+
+.latex {
+  width: 40%;
+  animation: javascript 2s;
+}
+
+@keyframes photoshop {
+  0% {
+    width: 0%
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes figma {
+  0% {
+    width: 0%
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes blender {
+  0% {
+    width: 0%
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+
+@keyframes canva {
+  0% {
+    width: 0%
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes latex {
+  0% {
+    width: 0%
+  }
+  100% {
+    width: 40%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">jaesilver.</a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html"  class="active">Skills</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    
+
+
+    <div class="skills">
+        <h1>My Skills</h1>
+        <ul>
+          <li><h3>ADOBE XD</h3><span class="bar"><span class="photoshop"></span></span></li>
+          <li><h3>FIGMA</h3><span class="bar"><span class="figma"></span></span></li>
+          <li><h3>BLENDER</h3><span class="bar"><span class="blender"></span></span></li>
+          <li><h3>CANVA</h3><span class="bar"><span class="canva"></span></span></li>
+          <li><h3>LATEX</h3><span class="bar"><span class="latex"></span></span></li>
+        </ul>
+        
+      </div>
+
+
+</body>
+</html>
